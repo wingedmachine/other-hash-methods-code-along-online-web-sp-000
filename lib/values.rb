@@ -9,5 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  %w[groceries.values.join(" ")]
+  groceries.values.join(" ")
 end
